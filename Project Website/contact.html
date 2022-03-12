@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title> R n E Shop </title>
+   <link rel="shortcut icon" type="image/png" href="images/log0.png"/>
+   
+     <style>
+	    *{
+		   margin: 0;
+		   padding: 0;
+		   box-sizing: border-box;
+	
+		   
+		   
+		    animation: fadeInAnimation ease 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+		   
+		   }
+		   @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+		   
+		 body{
+          font-family: arial, sans-serif;
+           } 
+
+          .txt{
+            font-size: 18px;
+			
+			
+		     position: relative;
+		top: -150px;
+			
+            }		
+
+			a.link {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    font-weight: bold; 
+	font-size: 18px;
+    color: initial;
+	 position: relative;
+		top: -150px;
+		margin-right: 50px;
+		margin-left: 28px;
+			
+             }
+			 
+	    .navbar{
+		    display: flex;
+			align-items: center;
+			background: #Cc3d5c; 
+		   }  
+	  .shopname{
+	      font-family: magneto;
+		  font-size: 25px;
+	      font-weight: light;
+	      color: #fff;
+		  
+		    position: relative;
+		top: -1px;
+		left: 8px;
+		margin-right: 50px;
+	    margin-left: -50.5px;
+	     }
+		 
+		 .welcome{
+		   font-family: Lemon;
+		     position: relative;
+		    top: -120px;
+		
+		 }
+		 
+		 .imageey{
+		  position: relative;
+		top: 10px;
+		left: 10px;
+		margin-right: 50px;
+	    margin-left: -413px;	
+		 }
+		
+		.navisize{
+		font-size: 18px;
+		color: #fff;
+		font-weight: bold;
+
+		}
+		
+		
+		 
+		
+		  .char{
+            font-size: 15px;
+            height: 10px;
+            animation: an 1s ease-out 1 both;
+            display: inline-block;
+        }
+
+		nav{
+		  flex: 1;
+		  text-align: left ;
+		}
+		nav ul{
+		 display: inline-block;
+		 list-style-stype: none;		 
+		 }
+		 nav ul li{
+		  margin-right: 25px;
+		 }
+		 
+		 .navimenu{
+		 position: relative;
+		top: 1px;
+		left: 792px;
+		font-weight: bold;
+		}
+		
+	     .navimenu2{
+		 position: relative;
+		top: 1px;
+		left: 249px;
+		font-weight: bold;
+		}
+		
+		
+		
+		
+		
+		
+		
+		nav ul li a:hover{
+		color: #000;
+		}
+		
+      
+	   
+	   
+		 
+		 .navv{
+		  display: inline;
+		
+		 }
+		 
+		 
+		
+		 
+		 a{
+		  text-decoration: none;
+		   color: #0a0a0a;
+		   font-family: candara;
+		   }
+		  p{
+		    color: #555;
+		
+			}
+			
+			.BOLD{
+			font-weight: bold;
+			
+			}
+			
+         .container{
+           	max-width: 1300px;
+            margin: auto;
+            padding-left: 25px;
+        	padding-right: 25px;
+			
+	
+            }
+			
+			
+	     .row1
+		{
+          display: flex;
+           align-items: center;
+            flex-wrap: wrap;		
+            justify-content: space-around;
+		    margin: 140px 50px 75px 145px;
+			
+         }
+			
+		
+			
+        .row
+		{
+          display: flex;
+           align-items: center;
+            flex-wrap: wrap;		
+            justify-content: space-around;
+			
+         }
+        .col-2{
+            flex-basis: 50%;
+            min-width: 300px;
+              }  
+        .col-2 img{
+		    max-width: 75%;
+	
+			}
+				
+		.col-2 h1{
+		     font-size: 20px;
+			 line-height: 60px;
+			 margin: 25px 0;
+			 }
+			.btn{
+			  display: inline-block;
+			  background: #Cc3d5c;
+			  color: #fff;
+			  padding: 8px 30px;
+			  margin: 30px 0;
+			  border-radius: 30px;
+			  transition: background 0.5s;
+			  }
+			  .btn:hover{
+			    background: #9b111e; 
+			  }
+			 .header {
+			  background-image: linear-gradient(#fee1e8, #fee1e8, #fee1e8);
+                }
+	
+			 .header .row{
+			     margin-top: 70px;				 
+			 } 
+			 .categories{
+			     margin: 70px 0;
+			 }
+			 .col-3{
+			   flex-basis: 30%;
+			   min-width: 250px;
+			   margin-bottom: 30px;
+			   }
+			  .col-3 img{
+			     width: 100%;
+				 }
+			  .small-container{
+			     max-width: 1080px;
+				 margin: auto;
+				 padding-left: 25px;
+				 padding-right: 25px;
+				 }
+				 .col-4{
+				    flex-basis: 25%;
+					padding: 10px;
+					min-width: 200px;
+					margin-bottom: 50px;
+					transition: transform 0.5s;
+				 }
+				 .col-4 img{
+				    width: 100%;
+				 }
+				 .title{
+				  text-align: center;
+				  margin: 0 auto 80px;
+				  position: relative;
+				  line-height: 60px;
+				  color: #555;
+				  
+				 }
+				 .title::after{
+				   content: "";
+				   background: #Cc3d5c;
+				   width: 80px;
+				   height: 5px;
+				   border-radius: 5px;
+				   position: absolute;
+				   bottom: 0;
+				   left: 50%;
+				   transform: translateX(-50%);
+				   }
+				  h4{
+				   color: #555;
+				   font-weight: bold; 
+				  }
+				  .col-4 P{
+				    font-size: 14px;
+				  }
+				  .rating .fa{
+				    color: #c64756;
+				  }
+				  .col-4:hover{
+				    transform: translateY(-5px);
+				  }
+				  
+				  /*-----offer------*/ 
+				  
+				  .offer{
+				  background: radial-gradient(#fff,#ABDEE6);
+				  margin-top: 80px;
+				  padding: 30px 0;
+				  }
+				  .col-2 .offer-img{
+				  padding: 50px;
+				  }
+				  small{
+				    color: #555;
+				  }
+				 /*-------testimonial-----*/ 
+				 .testimonial
+				 {
+				   padding-top: 100px;
+				 }
+				 .testimonial .col-3 
+				 {
+				   text-align: center;
+				   padding: 40px 20px;
+				   box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+				   cursor: pointer;
+				   transition: transform 0.5s; 
+				   
+				 }
+				 .testimonial .col-3 img{
+				   width: 50px;
+				   margin-top: 20px;
+				   border-radius: 50%; 
+				 }
+				 .testimonial .col-3:hover{
+				   transform: translateY(-10px);
+				 }
+				 .fa.fa-quote-left{
+				   font-size: 34px;
+				   color: #c64756;
+				 }
+				 .col-3 p{
+				   font-size: 12px;
+				   margin: 12px 0;
+				   color: #777; 
+				 }
+				 .testimonial .col-3 h3{
+				   font-weight: 600;
+				   color: #555;
+				   font-size: 16px;
+				 }
+				
+				
+				 /*---------footer-------*/
+				 
+				 .footer{
+				  background:  #Cc3d5c;
+				  color: #0a0a0a;
+				  font-size: 14px;
+				  padding: 240px -5px 20px;
+				  
+			     width: 1836.9px;
+				 margin-left:  -500px;
+				 margin-right: -1.9px;
+		
+				  }
+				  .footer p {
+				   color: #0a0a0a;
+				  }
+				  .footer h3{
+				     color: #364547;
+					 margin-bottom: 20px;
+				  }
+				  .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+				     min-width: 100px;
+					 margin-bottom: 20px;
+	
+				  }
+				  .footer-col-1{
+				    flex-basis: 30%;
+				  }
+				  .footer-col-2{
+				    flex: 1;
+					text-align: center;
+					
+				  }
+				 .footer-col-2 img{
+				    width: 180px;
+					margin-bottom: 20px;
+				 }
+				 .footer-col-3, .footer-col-4{
+				    flex-basis: 12%;
+					text-align: center;
+					
+				 }
+				 ul {
+				   list-style-type: none;
+				 }
+				 .app-logo{
+				   margin-top: 20px;
+				   
+			
+				}
+				.app-logo img{
+				  width: 140px;
+				  
+				
+				}
+				 .footer hr{
+				   border: none;
+				   background: #0a0a0a;
+				   height: 1px;
+				   margin: 20px 0;
+					
+	               margin-left: -1000px;
+				margin-right: -293px; 
+				   width: 500%;
+				   margin-top: -0.0em; 
+			
+				 }
+				 .Copyright{
+				    text-align: center;
+				 }
+				 
+				 .menu-icon{
+				    width: 28px;
+					margin-left: 20px;
+					display: none;
+				 }
+				 
+				/*------------ all products page -----------*/
+				.row-2{
+				   justify-content: space-between;
+				   margin: 100px auto 50px;
+				}
+				select{
+				   border: 1px solid #Cc3d5c;
+				   padding: 5px;
+				}
+				select:focus{
+				  outline: none;
+				}
+				
+				.page-btn{
+				   margin: 0 auto 80px;
+				}
+				.page-btn span{
+				   display: inline-block;
+				   border: 1px solid #Cc3d5c;
+				   margin-left: 10px;
+				   width: 40px;
+				   height: 40px;
+				   text-align: center;
+				   line-height: 40px;
+				   cursor: pointer;
+				}
+				.page-btn span:hover{
+				  background: #Cc3d5c;
+				  color: #fff;
+				}
+				a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+	display: inline-block;
+			  background: #Cc3d5c;
+			  color: #fff;
+			  padding: 8px 30px;
+			  margin: 30px 0;
+			  border-radius: 30px;
+			  transition: background 0.5s;
+	
+	
+			  a.button:hover{
+			    background: #9b111e; 
+			  }
+             }
+			 
+			 
+			 /* Style inputs with type="text", select elements and textareas */
+                 input[type=text], select, textarea {
+                   width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+
+.fname{
+font-weight: bold;
+font-family: Lemon;
+}
+.lname{
+font-weight: bold;
+font-family: Lemon;
+}
+.country{
+font-weight: bold;
+font-family: Lemon;
+}
+.subject{
+font-weight: bold;
+font-family: Lemon;
+}
+	 
+.Customer{
+position: absolute;
+	top: 200px;
+	font-size: 28px;
+	font-family: Lemon;
+}
+.qna{
+position: absolute;
+	top: 240px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.logohan1{
+ top: 500px;
+ position: absolute;
+}
+.logohan2{
+ top: 523px;
+ position: absolute;
+}
+			 
+			 
+    </style>
+
+</head>
+<body>
+   
+    <div class="header">
+    <div class="container"> 
+    <div class="navbar">
+	<div class="navimenu">
+	 <nav>	 	
+		   <ul id="MenuItems">
+		     <li class="navv"><a class="navisize"  href="homepage.html">HOME</a></li>
+			 <li class="navv"><a class="navisize"  href="product.html">PRODUCTS</a></li>
+			 <li class="navv"><a class="navisize"  href="about.html">ABOUT US</a></li>
+			 <li class="navv"><a class="navisize"  href="contact.html">CONTACT US</a></li>  
+		
+	
+			
+		   </ul>
+
+		 </nav>
+		 </div>
+	
+	
+	<img class="imageey" src="images/log0.png" width="150px">
+	 <p class="shopname"> R n E Shop. </p>	
+	
+	
+		  
+	</div>	
+	
+	<div class="row1">
+	
+		   <h2 class="Customer">R n E Customer Service Team </h2>
+		   <p class="qna">Have a question/problem? Please write here, and we will reply back soonest.</p>
+		   
+	     <div class="col-2">
+		     <h1 class="welcome">Contact Us</h1>
+			 <p class="txt" id="text"> Christine Chan – 09272309283 / 9201191</p>
+             <h1 class="welcome">Follow Us</h1>   
+			<img class="logohan1"src="images/fb1.png" width="18px"> <a href="https://www.facebook.com/R-n-E-117519400151063" class="link" id="text">Facebook</a><br>
+	        <img class="logohan2"src="images/insta2.png" width="18px"> <a href="https://www.instagram.com/shop_r_n_e/?fbclid=IwAR2y6vN2wXBXvoymEeaBmMJMkWAbpsrcJ6UKr5wQPWq0Ts7BeJPTEAZzGE0" class="link" id="text">Instagram</a>
+		 </div>
+		 <div class="col-2">
+		   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+           &nbsp&nbsp&nbsp
+		   
+		   
+		   <div class="container">
+  <form action="action_page.php">
+
+    <label class="fname" for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label class="lname" for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label class="country" for="country">Province</label>
+    <select id="country" name="country">
+      <option value="pampanga">Pampanga</option>
+      <option value="pangasinan">Pangasinan</option>
+	  <option value="2nd">NCR, 2nd District Province</option>
+	  <option value="3rd">NCR, 3rd District Province</option>
+	  <option value="4th">NCR, 4th District Province</option>
+	  <option value="1st">NCR, City of Manila, 1st District Province</option>
+    </select>
+
+    <label class="subject" for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+
+  </form>
+</div>
+	 
+	</div>
+
+    </div>	
+
+ <!-------------footer------->
+	<div class="footer">
+       <div class="container">
+           	 <div class="row">
+			
+
+			  <hr>
+		 <div class="container"> 
+			   <div class="footer-col-4">
+			   <div class="navbar">
+	         <div class="navimenu2">
+				   <nav>
+		                <ul id="MenuItems">
+		                <li class="navv"><a class="navisize"  href="homepage.html">HOME</a></li>
+			            <li class="navv"><a class="navisize"  href="product.html">PRODUCTS</a></li>
+			            <li class="navv"><a class="navisize"  href="about.html">ABOUT US</a></li>
+			            <li class="navv"><a class="navisize"  href="contact.html">CONTACT US</a></li> 
+						</ul>
+		           </nav>
+			   </div>
+			 </div>
+		   </div>
+		 </div>
+		</div>
+	</div>
+	</div>
+
+
+	</div>
+	</div>
+	
+	
+
+	
+	
+
+
+
+</body>
+</html>

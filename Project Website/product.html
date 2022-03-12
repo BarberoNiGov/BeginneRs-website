@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title> R n E Shop </title>
+   <link rel="shortcut icon" type="image/png" href="images/log0.png"/>
+   
+     <style>
+	    *{
+		   margin: 0;
+		   padding: 0;
+		   box-sizing: border-box;
+	
+		   
+		   
+		    animation: fadeInAnimation ease 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+		   
+		   }
+		   @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+		   
+		 body{
+          font-family: arial, sans-serif;
+           } 
+
+          .txt{
+            font-size: 18px;
+            }		  
+	    .navbar{
+		    display: flex;
+			align-items: center;
+			background: #Cc3d5c; 
+		   }  
+	  .shopname{
+	      font-family: magneto;
+		  font-size: 25px;
+	      font-weight: light;
+	      color: #fff;
+		  
+		    position: relative;
+		top: -1px;
+		left: 8px;
+		margin-right: 50px;
+	    margin-left: -50.5px;
+	     }
+		 
+		 .welcome{
+		   font-family: Lemon;
+		 }
+		 
+		 .imageey{
+		  position: relative;
+		top: 10px;
+		left: 10px;
+		margin-right: 50px;
+	    margin-left: -413px;	
+		 }
+		
+		.navisize{
+		font-size: 18px;
+		color: #fff;
+		}
+		
+		
+		 
+		
+		  .char{
+            font-size: 15px;
+            height: 10px;
+            animation: an 1s ease-out 1 both;
+            display: inline-block;
+        }
+
+		nav{
+		  flex: 1;
+		  text-align: left ;
+		}
+		nav ul{
+		 display: inline-block;
+		 list-style-stype: none;		 
+		 }
+		 nav ul li{
+		  margin-right: 25px;
+		 }
+		 
+		 .navimenu{
+		 position: relative;
+		top: 1px;
+		left: 792px;
+		font-weight: bold;
+		}
+		
+		
+		
+		 .navimenu2{
+		 position: relative;
+		top: 1px;
+		left: 195px;
+		font-weight: bold;
+		}
+		
+		
+		nav ul li a:hover{
+		color: #000;
+		}
+		
+      
+	   
+	   
+		 
+		 .navv{
+		  display: inline;
+		
+		 }
+		 
+		 
+		
+		 
+		 a{
+		  text-decoration: none;
+		   color: #0a0a0a;
+		   font-family: candara;
+		   }
+		  p{
+		    color: #000;
+		
+			}
+			
+			.BOLD{
+			font-weight: bold;
+			
+			}
+			
+         .container{
+           	max-width: 1300px; 
+            margin: auto;
+            padding-left: 25px;
+        	padding-right: 25px;
+			
+	
+            }
+			
+			
+	     .row1
+		{
+          display: flex;
+           align-items: center;
+            flex-wrap: wrap;		
+            justify-content: space-around;
+		    margin: 140px 50px 75px 145px;
+			
+         }
+			
+		
+			
+        .row
+		{
+          display: flex;
+           align-items: center;
+            flex-wrap: wrap;		
+            justify-content: space-around;
+			
+         }
+        .col-2{
+            flex-basis: 50%;
+            min-width: 300px;
+              }  
+        .col-2 img{
+		    max-width: 75%;
+	
+			}
+				
+		.col-2 h1{
+		     font-size: 50px;
+			 line-height: 60px;
+			 margin: 25px 0;
+			 }
+			  
+			 .header {
+			background-image: linear-gradient(#fee1e8, #fee1e8);
+			  
+                }
+	
+			 .header .row{
+			     margin-top: 70px;				 
+			 } 
+			 .categories{
+			     margin: 70px 0;
+			 }
+			 .col-3{
+			   flex-basis: 30%;
+			   min-width: 250px;
+			   margin-bottom: 30px;
+			   }
+			  .col-3 img{
+			     width: 100%;
+				 }
+			  .small-container{
+			     max-width: 1080px;
+				 margin: auto;
+				 padding-left: 25px;
+				 padding-right: 25px;
+				 }
+				 .col-4{
+				    flex-basis: 25%;
+					padding: 10px;
+					min-width: 200px;
+					margin-bottom: 50px;
+					transition: transform 0.5s;
+				 }
+				 .col-4 img{
+				    width: 100%;
+				 }
+				 .title{
+				  text-align: center;
+				  margin: 0 auto 80px;
+				  position: relative;
+				  line-height: 60px;
+				  color: #555;
+				  
+				 }
+				 .title::after{
+				   content: "";
+				   background: #Cc3d5c;
+				   width: 80px;
+				   height: 5px;
+				   border-radius: 5px;
+				   position: absolute;
+				   bottom: 0;
+				   left: 50%;
+				   transform: translateX(-50%);
+				   }
+				  h4{
+				   color: #000;
+				   font-weight: bold; 
+				  }
+				  .col-4 P{
+				    font-size: 14px;
+				  }
+				  .rating .fa{
+				    color: #c64756;
+				  }
+				  .col-4:hover{
+				    transform: translateY(-5px);
+				  }
+				  
+				  /*-----offer------*/ 
+				  
+				  .offer{
+				  background: radial-gradient(#fff,#ABDEE6);
+				  margin-top: 80px;
+				  padding: 30px 0;
+				  }
+				  .col-2 .offer-img{
+				  padding: 50px;
+				  }
+				  small{
+				    color: #555;
+				  }
+				 /*-------testimonial-----*/ 
+				 .testimonial
+				 {
+				   padding-top: 100px;
+				 }
+				 .testimonial .col-3 
+				 {
+				   text-align: center;
+				   padding: 40px 20px;
+				   box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+				   cursor: pointer;
+				   transition: transform 0.5s; 
+				   
+				 }
+				 .testimonial .col-3 img{
+				   width: 50px;
+				   margin-top: 20px;
+				   border-radius: 50%; 
+				 }
+				 .testimonial .col-3:hover{
+				   transform: translateY(-10px);
+				 }
+				 .fa.fa-quote-left{
+				   font-size: 34px;
+				   color: #c64756;
+				 }
+				 .col-3 p{
+				   font-size: 12px;
+				   margin: 12px 0;
+				   color: #777; 
+				 }
+				 .testimonial .col-3 h3{
+				   font-weight: 600;
+				   color: #555;
+				   font-size: 16px;
+				 }
+				
+				
+				 
+				 
+				 
+				 
+				 
+				  /*---------footer-------*/
+				 
+				 .footer{
+				  background:  #Cc3d5c;
+				  color: #0a0a0a;
+				  font-size: 14px;
+				  padding: 20px -5px 20px;
+				  
+				
+				 margin-left: -500px;
+				margin-right: -196.9px;
+				  
+
+				  }
+				  .footer p {
+				   color: #0a0a0a;
+				  }
+				  .footer h3{
+				     color: #364547;
+					 margin-bottom: 20px;
+				  }
+				  .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+				     min-width: 100px;
+					 margin-bottom: 20px;
+					 
+				
+		           
+					 
+				  }
+				  .footer-col-1{
+				    flex-basis: 30%;
+				  }
+				  .footer-col-2{
+				    flex: 1;
+					text-align: center;
+					
+				  }
+				 .footer-col-2 img{
+				    width: 180px;
+					margin-bottom: 20px;
+				 }
+				 .footer-col-3, .footer-col-4{
+				    flex-basis: 12%;
+					text-align: center;
+					
+				 }
+				 ul {
+				   list-style-type: none;
+				 }
+				 .app-logo{
+				   margin-top: 20px;
+				   
+			
+				}
+				.app-logo img{
+				  width: 140px;
+				  
+				
+				}
+				 .footer hr{
+				   border: none;
+				   background: #0a0a0a;
+				   height: 1px;
+				   margin: 20px 0;
+					
+	               margin-left: -1000px;
+				margin-right: -238.5px;
+				   width: 500%;
+				   margin-top: -0.1em;
+			
+				 }
+				 .Copyright{
+				    text-align: center;
+				 }
+				 
+				 .menu-icon{
+				    width: 28px;
+					margin-left: 20px;
+					display: none;
+				 }
+				 
+				 
+				 
+				/*------------ all products page -----------*/
+				.row-2{
+				   justify-content: center;
+				   margin: 100px auto 50px;   
+				}
+				h2{
+				font-family: Lemon;
+				}
+				
+				
+				
+				
+    </style>
+
+</head>
+<body>
+     <div class="header">
+    <div class="container"> 
+    <div class="navbar">
+	<div class="navimenu">
+	 <nav>	 	
+		   <ul id="MenuItems">
+		     <li class="navv"><a class="navisize"  href="homepage.html">HOME</a></li>
+			 <li class="navv"><a class="navisize"  href="product.html">PRODUCTS</a></li>
+			 <li class="navv"><a class="navisize"  href="about.html">ABOUT US</a></li>
+			 <li class="navv"><a class="navisize"  href="contact.html">CONTACT US</a></li>  
+		
+	
+			
+		   </ul>
+
+		 </nav>
+		 </div>
+	
+	
+	<img class="imageey" src="images/log0.png" width="150px">
+	 <p class="shopname"> R n E Shop. </p>	
+	
+	
+		  
+	</div>	
+	
+	
+    </div>	
+	  <div class="small-container">
+	  <div class="row row-2">
+	    <h2> All Products </h2>
+	
+	 
+	 
+	 
+      <div class="row">
+		 <div class="col-4">
+			     <img src="images/image14.png">
+				<h4> Zara's Top I</h4>
+				
+				<p class="pricensize">₱150&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+		     <div class="col-4">
+			     <img src="images/image15.png">
+				<h4> Zara's Top II</h4>
+				
+				<p class="pricensize">₱130&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+			
+			 <div class="col-4">
+			     <img src="images/image16.png">
+				<h4> Zara's Top III </h4>
+				
+				<p>₱250&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+			<div class="col-4">
+			     <img src="images/image13.png">
+				<h4> Zara's Top IV </h4>
+				
+				<p>₱200&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+	    </div>
+		
+		
+		
+		
+		
+		<div class="row">
+		  <div class="col-4">
+			     <img src="images/image22.png">
+				<h4> Presko Tee</h4>
+				
+				<p class="pricensize">₱80&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+		     <div class="col-4">
+			     <img src="images/image21.png">
+				<h4> Zara's Blouse</h4>
+				
+				<p class="pricensize">₱120&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+			
+			 <div class="col-4">
+			     <img src="images/image18.png">
+				<h4> Crop Top I</h4>
+				
+				<p>₱250&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+			<div class="col-4">
+			     <img src="images/image20.png">
+				<h4> Crop Top II </h4>
+				
+				<p>₱280&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+	    </div>
+		
+		
+		
+	   <div class="row">
+		 <div class="col-4">
+			     <img src="images/image7.png">
+				<h4> Krispy Kreme Tee</h4>
+				
+				<p class="pricensize">₱60&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+		     <div class="col-4">
+			     <img src="images/image8.png">
+				<h4> KabbaDoo Vintage Shirt</h4>
+				
+				<p class="pricensize">₱50&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+			
+			 <div class="col-4">
+			     <img src="images/image9.png">
+				<h4> Snoopy Dogg Vintage T-shirt </h4>
+				
+				<p>₱60&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+			<div class="col-4">
+			     <img src="images/image42.png">
+				<h4> Vintage Peanuts T-shirt </h4>
+				
+				<p>₱70&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+	    </div>
+		
+		<div class="row">
+		 <div class="col-4">
+			     <img src="images/image24.png">
+				<h4> Zara Mom Shorts</h4>
+				
+				<p class="pricensize">₱330-450&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+		     <div class="col-4">
+			     <img src="images/image25.png">
+				<h4> Zara Shorts V5</h4>
+				
+				<p class="pricensize">₱470&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+			
+			 <div class="col-4">
+			     <img src="images/image26.png">
+				<h4> Zara Shorts V5</h4>
+				
+				<p>₱450&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+			<div class="col-4">
+			     <img src="images/image27.png">
+				<h4> Zara Shorts V4 </h4>
+				
+				<p>₱460&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+	    </div>
+		
+		<div class="row">
+		 <div class="col-4">
+			     <img src="images/image28.png">
+				<h4> Zara Mom Shorts V3</h4>
+				
+				<p class="pricensize">₱420&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+		     <div class="col-4">
+			     <img src="images/image29.png">
+				<h4> Zara Mom Shorts V2</h4>
+				
+				<p class="pricensize">₱450&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+			
+			 <div class="col-4">
+			     <img src="images/image30.png">
+				<h4> Zara Mom Shorts </h4>
+				
+				<p>₱450&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+			<div class="col-4">
+			     <img src="images/image31.png">
+				<h4> Zara Shorts V3 </h4>
+				
+				<p>₱450&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+	    </div>
+		
+		<div class="row">
+		 <div class="col-4">
+			     <img src="images/image32.png">
+				<h4> Zara Shorts V2</h4>
+				
+				<p class="pricensize">₱450&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+		     <div class="col-4">
+			     <img src="images/image33.png">
+				<h4> Zara Shorts I</h4>
+				
+				<p class="pricensize">₱450&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+			
+			 <div class="col-4">
+			     <img src="images/image34.png">
+				<h4> Zara Jeans II </h4>
+				
+				<p>₱650&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+			<div class="col-4">
+			     <img src="images/image35.png">
+				<h4> Zara Jeans I   </h4>
+				
+				<p>₱650&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+	    </div>
+		
+		<div class="row">
+		 <div class="col-4">
+			     <img src="images/image36.png">
+				<h4> Zara Mom Jeans I V3</h4>
+				
+				<p class="pricensize">₱750&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+		     <div class="col-4">
+			     <img src="images/image37.png">
+				<h4> Zara Mom Jeans I V2</h4>
+				
+				<p class="pricensize">₱850&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			
+			
+				
+			</div>
+			
+			 <div class="col-4">
+			     <img src="images/image38.png">
+				<h4> Zara Mom Jeans II </h4>
+				
+				<p>₱850&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+			<div class="col-4">
+			     <img src="images/image39.png">
+				<h4> Zara Mom Jeans I </h4>
+				
+				<p>₱850&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS/M/L/XL</p>
+			</div>
+	    </div>
+		
+		
+		
+		
+	 </div>
+	 
+	 <!-------------footer------->
+	<div class="footer">
+       <div class="container">
+           	 <div class="row">
+			
+
+			  <hr>
+		 <div class="container"> 
+			   <div class="footer-col-4">
+			   <div class="navbar">
+	         <div class="navimenu2">
+				   <nav>
+		                <ul id="MenuItems">
+		                <li class="navv"><a class="navisize"  href="homepage.html">HOME</a></li>
+			            <li class="navv"><a class="navisize"  href="product.html">PRODUCTS</a></li>
+			            <li class="navv"><a class="navisize"  href="about.html">ABOUT US</a></li>
+			            <li class="navv"><a class="navisize"  href="contact.html">CONTACT US</a></li> 
+						</ul>
+		           </nav>
+			   </div>
+			 </div>
+		   </div>
+		 </div>
+		</div>
+	</div>
+	</div>
+	
+	
+	 
+
+		
+
+	
+	
+
+
+
+
+</body>
+</html>
